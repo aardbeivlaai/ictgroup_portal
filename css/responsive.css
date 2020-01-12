@@ -1,0 +1,245 @@
+
+@media all and (max-width: 1200px){
+    .header-area {
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.16);
+    }
+    .align-centere {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .logo-area {
+        justify-content: center;
+    }
+    .Progress-hl h2 {
+        text-align: center;
+    }
+    .Progress-hr {
+        justify-content: center;
+    }
+    .digital-content h2 {
+        font-size: 26px;
+    }
+    .digital-content p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .menu ul li a {
+        padding: 10px 12px;
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width: 1000px){
+    .faqvisa-content-area .row, .col-md-3 {
+        width: 140%;
+        padding-bottom: 40px;
+    }
+    .Digital-btn .btn a {
+        padding: 10px 101px;
+    }
+    .Digital img {
+        padding: 20px 0 0 0;
+        height: 100%;
+    }
+}
+@media all and (max-width: 990px){
+    .menu ul li a {
+        padding: 10px 8px;
+        font-size: 13px;
+    }
+}
+@media all and (max-width: 767px){
+   .menu-bar{
+      display: block;
+   }
+   .menu-bar i {
+	font-size: 25px;
+	padding-right: 35px;
+}
+   .m-logo-area {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+   .menu ul {
+	padding-left: 30px;
+	text-align: left;
+    padding: 20px;
+    flex-direction: column;
+    display: none;
+}
+   .menu ul li a.active::after{
+       display: none;
+   }
+   .menu ul li a:hover::after{
+       display: none;
+   }
+   .questions {
+    grid-template-columns: repeat(2,auto);
+}
+.faqh-search {
+    width: 100%;
+    margin-top: 20px;
+}
+.faqvisa-content-area .row, .col-md-3 {
+    width: 100%;
+}
+
+
+.mc-accordion a {
+	text-decoration: underline !important;
+	padding: 15px 0px;
+	font-size: 21px;
+	font-weight: 400;
+	display: flex;
+}
+.ph-btn {
+	margin-left: 0;
+}
+.progress-wrap div ul {
+    width: 250px;
+    margin-top: 10px;
+}
+.tab-pane h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.quiz-label p {
+    font-size: 20px;
+    line-height: 31px;
+    margin-bottom: -8px;
+}
+
+}
+@media all and (max-width: 565px){
+.logo-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+.h-search {
+    margin-bottom: 10px;
+}
+.prototype-m {
+    margin: 0;
+}
+.faq-topics ul li a {
+    font-size: 18px;
+    padding: 8px 0px;
+}
+.single-faq h4 {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+}
+.single-faq p {
+    font-size: 10px;
+    line-height: 15px;
+    color: #616060;
+    padding-bottom: 20px;
+}
+.faq-topics ul li a {
+    font-size: 14px;
+    padding: 5px 0px;
+}
+.faqvisa-content-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.faqvisa {
+    padding-left: 0;
+    margin-top: -20px;
+}
+.digital-content h2 {
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 35px;
+    padding-bottom: 10px;
+}
+.digital-content p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #000;
+}
+.questions-h h2 {
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+.digital-content {
+    padding: 0px 10px;
+}
+.panel-body ul li::after {
+    content: '';
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background: #B9B9B9;
+    border-radius: 100px;
+    top: 6px;
+    left: 18px;
+}
+.panel-body ul li {
+    padding: 5px;
+    position: relative;
+    font-size: 14px;
+    color: #646464;
+    padding-left: 44px;
+}
+.Progress-hr {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.Progress-hl h2 {
+    text-align: center;
+}
+.ph-single {
+    margin-bottom: 10px;
+}
+.ph-single1 {
+    margin-bottom: 10px;
+}
+#booking-form .next-btn, #booking-form .submit-btn {
+    width: 39%;
+    margin-left: 0;
+}
+.tab-pane h2 {
+    font-size: 14px;
+    font-weight: 600;
+}
+.quiz-label p {
+    font-size: 14px;
+    line-height: 31px;
+    margin-bottom: -8px;
+}
+.next-btn{
+    padding: 5px 20px !important;
+    font-size: 10px;
+}
+.h-search {
+    display: none;
+}
+.single-questions p {
+    font-size: 20px;
+    line-height: 22px;
+}
+}
+
+
+
+
+
+
