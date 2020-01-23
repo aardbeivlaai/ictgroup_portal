@@ -39,7 +39,8 @@ body {
 
 a {
     text-decoration: none;
-    display: inline-block;
+	display: inline-block;
+	color: #0097b1; 
 }
 a:hover {
     text-decoration: none;
@@ -308,7 +309,7 @@ input:focus {
 	font-weight: 700;
 }
 .faq-topics {
-	border: 1px solid #007bff;
+	border: 0px solid #0097b1;
 	padding: 15px 0px 15px 20px;
 }
 .faqvisa {
@@ -856,7 +857,7 @@ span.error {
 }
 .single-login-b i {
 	position: absolute;
-	left: 29%;
+	left: 28%;
 	z-index: 2;
 	font-size: 23px;
 }
