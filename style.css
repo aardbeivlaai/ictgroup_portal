@@ -1177,3 +1177,24 @@ input[type=radio], input[type=checkbox] {
 	font-weight: 600;
 	color: white; 
 }
+
+.definition {
+	border-bottom: 2px dashed #0097B1;
+}
+
+.tooltip-inner {
+	background-color: #FFF;
+	color: #0097B1; 
+	border: 1px solid #0097B1; 
+	}
+	
+	.tooltip.bs-tooltip-bottom .arrow:before {
+		border-bottom-color: #FFF !important;
+	}
+	
+.check-link {
+	font-size: 16px !important ;
+	margin-top: 0px !important ;
+	margin-bottom: 0px !important ; 
+}
+
