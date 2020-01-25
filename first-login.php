@@ -1,6 +1,10 @@
 <!doctype html>
 <html class="no-js" lang="">
 
+<?php 
+  require_once("php/session.php");
+?>
+
 <head>
   <meta charset="utf-8">
   <title>First login - ICT Internationals Portal</title>
@@ -45,7 +49,7 @@
               <img src="img/logo-ict.png" alt="">
             </a>
             <div class="login-form">
-              <form action="index.html">
+              <form action="php/first-login-send.php" method="POST">
                 <div class="setting-single-select">
                   <h3>COUNTRY</h3>
                   <div class="single-selecta-first">

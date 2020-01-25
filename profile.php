@@ -1,9 +1,16 @@
 <!doctype html>
 <html class="no-js" lang="">
 
+<?php 
+  require_once('php/session.php');
+  require_once('php/tbc-exemption.php');
+  $var = $_SESSION["COUNTRY"];
+  
+?>
+
 <head>
   <meta charset="utf-8">
-  <title>Document</title>
+  <title>Profile</title>
   <meta name="description" content="ICT Group Internationals portal">
   <meta name="title" content="ICT Group Internationals portal">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -42,7 +49,7 @@
             <div class="m-logo-area">
               <div class="logo-area">
                 <div class="logo">
-                  <a href="#" class="logo-img">
+                  <a href="home.html" class="logo-img">
                     <img src="img/logo-ict.png" alt="">
                   </a>
                 </div>
@@ -63,7 +70,7 @@
                 <li><a href="Information.html">Information</a></li>
                 <li><a href="faq.html">FAQ</a></li>
                 <li><a href="Checklist.html">Checklist</a></li>
-                <li><a href="profile.html" class="active">Profile</a></li>
+                <li><a href="profile.php" class="active">Profile</a></li>
               </ul>
             </div>
           </div>
@@ -89,6 +96,10 @@
                   <h3>COUNTRY</h3>
                   <div class="single-selecta">
                     <select class="search-select" name="country">
+                      <?php 
+                        
+                        echo'<option value="1">'.$var.'</option>'; 
+                      ?>
                       <option value="1">Select your country</option>
                       <option value="Afghanistan">Afghanistan</option>
                       <option value="Åland Islands">Åland Islands</option>

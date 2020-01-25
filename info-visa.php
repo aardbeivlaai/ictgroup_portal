@@ -1,6 +1,11 @@
 <!doctype html>
 <html class="no-js" lang="">
 
+<?php 
+  require_once('php/session.php');
+  require_once('php/tbc-exemption.php');
+?>
+
 <head>
   <meta charset="utf-8">
   <title>Visa - Information</title>
@@ -63,7 +68,7 @@
                 <li><a href="Information.html" class="active">Information</a></li>
                 <li><a href="faq.html">FAQ</a></li>
                 <li><a href="Checklist.html">Checklist</a></li>
-                <li><a href="profile.html">Profile</a></li>
+                <li><a href="profile.php">Profile</a></li>
               </ul>
             </div>
           </div>
@@ -113,7 +118,18 @@
                 <li><a href="#">Validity of Visa/permit</a></li>
                 <li><a href="#">Termination of employment contract</a></li>
                 <li><a href="#">Necessary documents for ICT</a></li>
-                <li><a href="#">TBC examination</a></li>
+                <?php 
+
+                  if ($_SESSION['Medic'] == "Yes"){
+                    echo'<li><a href="#">TBC examination</a></li>';
+                  }else
+                  {
+
+                  }
+                   
+                ?>
+
+                
               </ul>
             </div>
           </div>
