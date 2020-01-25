@@ -3,9 +3,9 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Document</title>
-  <meta name="description" content="ICT Group Internationals portal">
-  <meta name="title" content="ICT Group Internationals portal">
+  <title>First login - ICT Internationals Portal</title>
+  <meta name="description" content="This Is A Protfolio Website">
+  <meta name="title" content="This Is A Protfolio Website">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="apple-touch-icon" href="img/logo-ict.png">
   <link rel="icon" type="ico" sizes="16x16" href="img/logo-ict.png">
@@ -33,61 +33,22 @@
   <!--[if IE]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
-  <!-- header area start  -->
-  <div class="header-area">
+
+  <div class="login-area">
     <div class="container-fluid">
-      <div class="header">
-        <div class="row align-center">
-          <div class="col-md-6">
-            <div class="m-logo-area">
-              <div class="logo-area">
-                <div class="logo">
-                  <a href="#" class="logo-img">
-                    <img src="img/logo-ict.png" alt="">
-                  </a>
-                </div>
-                <div class="h-search">
-                  <i class="fa fa-search"></i>
-                  <input type="text" placeholder="Search...">
-                </div>
-              </div>
-              <div class="menu-bar">
-                <i class="fa fa-bars"></i>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="menu">
-              <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="Information.html">Information</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-                <li><a href="Checklist.html">Checklist</a></li>
-                <li><a href="profile.html" class="active">Profile</a></li>
-              </ul>
-            </div>
-          </div>
+      <div class="row">
+        <div class="col-md-7 login-l">
         </div>
-      </div>
-    </div>
-  </div>
-  <!-- header area end  -->
-  <form action="php/profile-form-send.php" method="POST">
-    <div class="setting-select-area prototype-m">
-      <div class="container-fluid">
-        <div class="setting-select">
-          <div class="setting-select-h">
-            <h2>Profile settings</h2>
-          </div>
-          <div class="row">
-            <div class="col-md-4">
-              <div class="setting-select-optin">
-                <div class="setting-select-optin-h">
-                  <h3>GENERAL INFORMATION</h3>
-                </div>
+        <div class="col-md-5">
+          <div class="login-r">
+            <a href="#" class="login-logo">
+              <img src="img/logo-ict.png" alt="">
+            </a>
+            <div class="login-form">
+              <form action="index.html">
                 <div class="setting-single-select">
                   <h3>COUNTRY</h3>
-                  <div class="single-selecta">
+                  <div class="single-selecta-first">
                     <select class="search-select" name="country">
                       <option value="1">Select your country</option>
                       <option value="Afghanistan">Afghanistan</option>
@@ -342,19 +303,8 @@
                   </div>
                 </div>
                 <div class="setting-single-select">
-                  <h3>ARE YOUR SPOUSE / KIDS JOINING?</h3>
-                  <div class="single-selecta">
-                    <select class="search-select">
-                      <option value="1">None</option>
-                      <option value="2">Only spouse</option>
-                      <option value="3">Only kids</option>
-                      <option value="4">Spouse and kids</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="setting-single-select">
                   <h3>Age</h3>
-                  <div class="single-selecta">
+                  <div class="single-selecta-first">
                     <select class="search-select">
                       <option value="1">Select Your Age</option>
                       <option value="2">18</option>
@@ -374,123 +324,16 @@
                     </select>
                   </div>
                 </div>
-              </div>
+                <div class="login-btn">
+                  <input type="submit" value="SAVE">
+                </div>
+              </form>
             </div>
-            <div class="col-md-4">
-              <div class="setting-select-optin">
-                <div class="setting-select-optin-h">
-                  <h3>ADDITIONAL INFORMATION</h3>
-                </div>
-                <div class="setting-single-select">
-                  <h3>LEASE CAR</h3>
-                  <div class="single-selecta">
-                    <select class="search-select">
-                      <option value="1">No</option>
-                      <option value="2">Yes</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="setting-single-select">
-                  <h3>ARE YOUR SPOUSE / KIDS JOINING?</h3>
-                  <div class="single-selecta">
-                    <select class="search-select">
-                      <option value="1">None</option>
-                      <option value="2">Only spouse</option>
-                      <option value="3">Only kids</option>
-                      <option value="4">Spouse and kids</option>
-
-                    </select>
-                  </div>
-                </div>
-                <div class="setting-single-select">
-                  <h3>Age</h3>
-                  <div class="single-selecta">
-                    <select class="search-select">
-                      <option value="1">Select Your Age</option>
-                      <option value="2">18</option>
-                      <option value="3">19</option>
-                      <option value="4">20</option>
-                      <option value="5">21</option>
-                      <option value="6">23</option>
-                      <option value="7">24</option>
-                      <option value="8">25</option>
-                      <option value="9">26</option>
-                      <option value="10">27</option>
-                      <option value="11">28</option>
-                      <option value="12">29</option>
-                      <option value="13">30</option>
-                      <option value="14">31</option>
-                      <option value="15">31+</option>
-
-
-                    </select>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="setting-select-optin-cheeck">
-                <div class="setting-select-optin-h">
-                  <h3></h3>
-                </div>
-                <div class="setting-single-selectt">
-                  <h3>E-MAIL NOTIFICATIONS</h3>
-                  <div class="single-select">
-                    <div class="apollo-element apollo-element-active apollo-field-switcher">
-                      <div class="apollo-title"></div>
-                      <div class="apollo-fieldset"><label>
-
-                          <input type="checkbox" name="shortcode[active]" value="1" data-depend-id="active"
-                            data-atts="active">
-                          <em data-on="on" data-off="off"></em><span></span>
-                        </label>
-                      </div>
-                      <div class="clear"></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="setting-single-selectt">
-                  <h3>BROWSER ALERTS</h3>
-                  <div class="single-select">
-                    <div class="apollo-element apollo-element-active apollo-field-switcher">
-                      <div class="apollo-title"></div>
-                      <div class="apollo-fieldset"><label>
-
-                          <input type="checkbox" name="shortcode[active]" value="1" data-depend-id="active"
-                            data-atts="active" checked>
-                          <em data-on="on" data-off="off"></em><span></span>
-                        </label>
-
-                      </div>
-                      <div class="clear"></div>
-                    </div>
-
-                  </div>
-                </div>
-                <div class="setting-single-select">
-                  <h3>Age</h3>
-                  <div class="single-selecta">
-                    <select class="search-select">
-                      <option value="1">Select Your Age</option>
-                      <option value="2">16</option>
-                      <option value="3">17</option>
-                      <option value="4">18</option>
-                      <option value="5">19</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="setting-login-btn">
-                  <input type="submit" name="Save" value="SAVE">
-                </div>
-              </div>
-            </div>
-
           </div>
         </div>
       </div>
     </div>
-  </form>
-
+  </div>
 
   <!-- Normalizer Js -->
   <script src="js/vendor/modernizr-3.7.1.min.js"></script>
@@ -502,12 +345,25 @@
   </script>
   <!-- Plugins Js -->
   <script type="text/javascript" src="js/plugins.js"></script>
-  <!-- Popper Js -->
+  <!-- Pooper Js -->
   <script type="text/javascript" src="js/popper.min.js"></script>
   <!-- Bootstrap Js -->
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <!-- Main Js -->
   <script type="text/javascript" src="js/script.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () {
+      ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('set', 'transport', 'beacon');
+    ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
 
 </html>

@@ -923,6 +923,45 @@ span.error {
 	width: 80%;
 	border: 1px solid #0097b1;
 }
+
+.single-selecta-first {
+	overflow: hidden;
+	position: relative;
+	border-radius: 100px;
+	width: 100%;
+	border: 1px solid #0097b1;
+}
+
+.single-selecta-first::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 40px;
+	height: 100%;
+	background: #f0f2f7;
+	pointer-events: none;
+	z-index: 1;
+}
+.single-selecta-first::before {
+	content: '';
+	position: absolute;
+	top: 14px;
+	right: 18px;
+	width: 8px;
+	height: 8px;
+	background: transparent;
+	z-index: 2;
+	border-right: 2px solid #0097b1;
+	border-bottom: 2px solid #0097b1;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	-webkit-transform: rotate(45deg);
+	    -ms-transform: rotate(45deg);
+	        transform: rotate(45deg);
+	pointer-events: none;
+}
+
 .single-selecta::after {
 	content: '';
 	position: absolute;
