@@ -3,6 +3,8 @@ $(document).ready(function(){
 		$('.menu ul').slideToggle(1000);
 	});
 
+	//console.log('before validate');
+
 	var v = $("#booking-form").validate({
 		rules: {
 		  bf_totalGuests: {
@@ -32,6 +34,8 @@ $(document).ready(function(){
 			  error.insertBefore(element); 
 		}
   });
+
+  //console.log('after validate');
   
   $(".next-btn1").click(function() {
 	  if (v.form()) {
@@ -71,3 +75,13 @@ $(document).ready(function(){
 })
 
 	
+
+window.addEventListener('DOMContentLoaded', () => {
+	const listItems = document.querySelectorAll('.checkLi');
+  
+	listItems.forEach(li => {
+	  li.addEventListener('click', () => {
+		li.classList.toggle('checkLi--colored');
+	  })
+	})
+  }); 

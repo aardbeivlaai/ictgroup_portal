@@ -145,12 +145,33 @@
 
                 </p>
 
-                <p>- Drafting and submitting the complete application for your Dutch residence permit together with your
-                  work authorization (e.g. as a Highly Skilled Migrant (HSM)); <br>
-                  - Monitoring the process with the Dutch authorities and/or embassies of your home country;<br>
-                  - Arranging any necessary appointments (e.g. visa application); <br>
-                  - Verifying the details on your Dutch permit as HSM; and <br>
-                  - Applying for the 30% tax facility (if you’re eligible). <br>
+                <p> <img src="img/visatype.png" usemap="#image-map" />
+                  <map name="image-map">
+                    <area onclick="popout1()" data-modal-target="#modal" coords="848,182,1010,300" shape="rect">
+                    <area onclick="popout2()" data-modal-target="#modal" coords="668,450,505,562" shape="rect">
+                    <area onclick="popout3()" data-modal-target="#modal" coords="179,548,346,663" shape="rect">
+                  </map>
+
+                  <div class="popup">
+                    <span class="popuptext" id="myPopup1">You are subject to salary criteria based on your age: < 30
+                        years or> 30 years (ICT will cover the costs of the IND fees).
+                        <br>If you change employer after turning 30 years old, you will be subject to the highest salary
+                        criteria.</br>
+                    </span>
+                    <span class="popuptext" id="myPopup2">If possible, ICT prefers that you obtain your own visa due to
+                      a lower risk.
+                      <br>In that case, you need to comply with the criteria set by the IND (see below).
+                      <br> Whether or not this is possible and/or desirable depends on your situation<br> (factors such
+                      as salary, amount of years in the Netherlands and age)
+                      <br>ICT will cover the costs of the IND fees for applying for a highly skilled migrant visa.
+                      <br>In case this is not a possibility, the dependency visa is still an option.</br>
+                    </span>
+                    <span class="popuptext" id="myPopup3">Apply for an HSM visa after the zoekjaar or immediately after
+                      graduating in the Netherlands (Beng/BSc/Meng/PDeng/PhD).
+                      <br>You will be subject to the lowest salary criteria of the IND and this will remain so for the
+                      rest of your career in the Netherlands.<br> (ICT will cover the costs of the IND fees)</br>
+                    </span>
+                  </div>
                 </p>
 
                 <p>In order to do this, they will ask you to fill out some forms (Antecedents Certificate, etc.) and ask
@@ -211,6 +232,89 @@
     });
   </script>
 
+  <script>
+    var toggle_1 = false;
+    var toggle_2 = false;
+    var toggle_3 = false;
+    var popup_1 = document.getElementById("myPopup1");
+    var popup_2 = document.getElementById("myPopup2");
+    var popup_3 = document.getElementById("myPopup3");
+
+    function popout1() {
+
+      if (toggle_2 == false && toggle_3 == false) {
+        popup_1.classList.toggle("show");
+        toggle_1 = !toggle_1;
+      } else if (toggle_2 != false && toggle_3 == false) {
+        popup_2.classList.toggle("show");
+        toggle_2 = !toggle_2;
+        popup_1.classList.toggle("show");
+        toggle_1 = !toggle_1;
+      } else if (toggle_3 != false && toggle_2 == false) {
+        popup_3.classList.toggle("show");
+        toggle_3 = !toggle_3;
+        popup_1.classList.toggle("show");
+        toggle_1 = !toggle_1;
+      } else if (toggle_3 == true && toggle_2 == true) {
+        popup_2.classList.toggle("show");
+        toggle_2 = !toggle_2;
+        popup_3.classList.toggle("show");
+        toggle_3 = !toggle_3;
+        popup_1.classList.toggle("show");
+        toggle_1 = !toggle_1;
+      }
+    }
+
+    function popout2() {
+
+      if (toggle_1 == false && toggle_3 == false) {
+        popup_2.classList.toggle("show");
+        toggle_2 = !toggle_2;
+      } else if (toggle_1 != false && toggle_3 == false) {
+        popup_1.classList.toggle("show");
+        toggle_1 = !toggle_1;
+        popup_2.classList.toggle("show");
+        toggle_2 = !toggle_2;
+      } else if (toggle_3 != false && toggle_1 == false) {
+        popup_3.classList.toggle("show");
+        toggle_3 = !toggle_3;
+        popup_2.classList.toggle("show");
+        toggle_2 = !toggle_2;
+      } else if (toggle_3 == true && toggle_1 == true) {
+        popup_1.classList.toggle("show");
+        toggle_1 = !toggle_1;
+        popup_3.classList.toggle("show");
+        toggle_3 = !toggle_3;
+        popup_2.classList.toggle("show");
+        toggle_2 = !toggle_2;
+      }
+    }
+
+    function popout3() {
+
+      if (toggle_2 == false && toggle_1 == false) {
+        popup_3.classList.toggle("show");
+        toggle_3 = !toggle_3;
+      } else if (toggle_2 != false && toggle_1 == false) {
+        popup_2.classList.toggle("show");
+        toggle_2 = !toggle_2;
+        popup_3.classList.toggle("show");
+        toggle_3 = !toggle_3;
+      } else if (toggle_1 != false && toggle_2 == false) {
+        popup_1.classList.toggle("show");
+        toggle_1 = !toggle_1;
+        popup_3.classList.toggle("show");
+        toggle_3 = !toggle_3;
+      } else if (toggle_2 == true && toggle_1 == true) {
+        popup_1.classList.toggle("show");
+        toggle_1 = !toggle_1;
+        popup_2.classList.toggle("show");
+        toggle_2 = !toggle_2;
+        popup_3.classList.toggle("show");
+        toggle_3 = !toggle_3;
+      }
+    }
+  </script>
 
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->

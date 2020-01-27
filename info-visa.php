@@ -112,7 +112,7 @@
               <ul>
                 <li><a href="#" class="active"><b>Visa</b></a></li>
                 <li><a href="info-visa-exterus.php">Exterus</a></li>
-                <li><a href="#">Visa types & Salary criteria</a></li>
+                <li><a href="info-visa-types.php">Visa types & Salary criteria</a></li>
                 <li><a href="#">Leave options</a></li>
                 <li><a href="#">Mobility options</a></li>
                 <li><a href="#">Validity of Visa/permit</a></li>
