@@ -66,7 +66,7 @@
               <ul>
                 <li><a href="home.html">Home</a></li>
                 <li><a href="Information.html" class="active">Information</a></li>
-                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="faqtopics.html">FAQ</a></li>
                 <li><a href="Checklist.html">Checklist</a></li>
                 <li><a href="profile.php">Profile</a></li>
               </ul>
@@ -105,10 +105,10 @@
           </div>
         </div>
       </div>
-      <div class="faqvisa-content-area">
+      <div class="faqvisa-content-area" >
         <div class="row">
           <div class="col-md-3">
-            <div class="faq-topics">
+            <div class="faq-topics" class="sticky-top">
               <h4>Index</h4>
               <ul>
                 <li><a href="info-visa.php" class="active">Visa</a></li>
@@ -142,7 +142,7 @@
                    </p>
 
                    <p>- Drafting and submitting the complete application for your Dutch residence permit together with your work authorization (e.g. as a Highly Skilled Migrant (HSM)); <br>
-                    - Monitoring the process with the Dutch authorities and/or embassies of your home country;
+                    - Monitoring the process with the Dutch authorities and/or embassies of your home country;<br>
                     - Arranging any necessary appointments (e.g. visa application); <br>
                     - Verifying the details on your Dutch permit as HSM; and <br>
                     - Applying for the 30% tax facility (if you’re eligible). <br>

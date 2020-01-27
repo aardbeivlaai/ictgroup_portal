@@ -66,7 +66,7 @@
               <ul>
                 <li><a href="home.html">Home</a></li>
                 <li><a href="Information.html" class="active">Information</a></li>
-                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="faqtopics.html">FAQ</a></li>
                 <li><a href="Checklist.html">Checklist</a></li>
                 <li><a href="profile.php">Profile</a></li>
               </ul>
@@ -107,11 +107,11 @@
       <div class="faqvisa-content-area">
         <div class="row">
           <div class="col-md-3">
-            <div class="faq-topics">
+            <div class="faq-topics" class="sticky">
               <h4>Index</h4>
               <ul>
                 <li><a href="#" class="active"><b>Visa</b></a></li>
-                <li><a href="info-visa-exterus.html">Exterus</a></li>
+                <li><a href="info-visa-exterus.php">Exterus</a></li>
                 <li><a href="#">Visa types & Salary criteria</a></li>
                 <li><a href="#">Leave options</a></li>
                 <li><a href="#">Mobility options</a></li>

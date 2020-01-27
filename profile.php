@@ -100,7 +100,7 @@
                         
                         echo'<option value="1">'.$var.'</option>'; 
                       ?>
-                      <option value="1">Select your country</option>
+                      
                       <option value="Afghanistan">Afghanistan</option>
                       <option value="Åland Islands">Åland Islands</option>
                       <option value="Albania">Albania</option>
@@ -493,6 +493,7 @@
                 <div class="setting-login-btn">
                   <input type="submit" name="Save" value="SAVE">
                 </div>
+                
               </div>
             </div>
 
