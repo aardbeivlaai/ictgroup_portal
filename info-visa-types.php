@@ -8,7 +8,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Visa Exterus - Information</title>
+  <title>Visa types and Salary criteria - Information</title>
   <meta name="description" content="This Is A Protfolio Website">
   <meta name="title" content="This Is A Protfolio Website">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -90,7 +90,7 @@
                   <li class="breadcrumb-item"><a href="home.html">Home</a></li>
                   <li class="breadcrumb-item"><a href="Information.html">Information</a></li>
                   <li class="breadcrumb-item" aria-current="page"><a href="info-visa.php">Visa</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">Exterus</li>
+                  <li class="breadcrumb-item active" aria-current="page">Visa types & Salary Criteria</li>
                 </ol>
               </nav>
             </div>
@@ -105,15 +105,15 @@
           </div>
         </div>
       </div>
-      <div class="faqvisa-content-area" >
+      <div class="faqvisa-content-area">
         <div class="row">
           <div class="col-md-3">
             <div class="faq-topics" class="sticky-top">
               <h4>Index</h4>
               <ul>
-                <li><a href="info-visa.php" class="active">Visa</a></li>
-                <li><a href="#" class="active"><b>Exterus</b></a></li>
-                <li><a href="#">Visa types & Salary criteria</a></li>
+                <li><a href="info-visa.php">Visa</a></li>
+                <li><a href="info-visa-exterus.php">Exterus</a></li>
+                <li><a href="#" class="active"><b>Visa types & Salary criteria</b></a></li>
                 <li><a href="#">Leave options</a></li>
                 <li><a href="#">Mobility options</a></li>
                 <li><a href="#">Validity of Visa/permit</a></li>
@@ -134,36 +134,51 @@
           </div>
           <div class="col-md-6">
             <div class="faqvisa">
-              <h2>Exterus</h2>
+              <h2>Visa types and salary criteria</h2>
               <div class="single-faq">
 
-                <p>Exterus is specialized in immigration law and will therefore be your point of contact
-                  throughout the whole procedure. Their services consist of the following:
-                   </p>
+                <p>The visa process you will go through depends on your situation. The salary criteria for a visa also
+                  vary per person and are dependent on factors such as the type of visa
+                  and your age. The Immigratie- en Naturalisatiedienst (IND) is the governmental institution that
+                  handles all visa applications. There are several visa types that could
+                  be applicable to you.
 
-                   <p>- Drafting and submitting the complete application for your Dutch residence permit together with your work authorization (e.g. as a Highly Skilled Migrant (HSM)); <br>
-                    - Monitoring the process with the Dutch authorities and/or embassies of your home country;<br>
-                    - Arranging any necessary appointments (e.g. visa application); <br>
-                    - Verifying the details on your Dutch permit as HSM; and <br>
-                    - Applying for the 30% tax facility (if you’re eligible). <br>
-                    </p>
+                </p>
 
-                    <p>In order to do this, they will ask you to fill out some forms (Antecedents Certificate, etc.) and ask you for some documents (e.g. legalized birth certificate, etc.). You may also approach your contact person at Exterus for any questions regarding your visa (application).</p>
+                <p>- Drafting and submitting the complete application for your Dutch residence permit together with your
+                  work authorization (e.g. as a Highly Skilled Migrant (HSM)); <br>
+                  - Monitoring the process with the Dutch authorities and/or embassies of your home country;<br>
+                  - Arranging any necessary appointments (e.g. visa application); <br>
+                  - Verifying the details on your Dutch permit as HSM; and <br>
+                  - Applying for the 30% tax facility (if you’re eligible). <br>
+                </p>
 
-                    <p>ICT highly values your well-being and integration within the Netherlands. Therefore, we also offer to arrange (and pay for) the visa of your family members (spouse and/or children) if they were to move to the Netherlands in the first year of your employment at ICT. Exterus will also monitor and coordinate this process.</p>
+                <p>In order to do this, they will ask you to fill out some forms (Antecedents Certificate, etc.) and ask
+                  you for some documents (e.g. legalized birth certificate, etc.). You may also approach your contact
+                  person at Exterus for any questions regarding your visa (application).</p>
 
-                    <p>If your spouse and/or child(ren) are accompanying you when first coming to the Netherlands, you can inform Exterus about this. However, if they come to the Netherlands at another point in time (within the first year), you need to inform HR (<a href="mailto:hr.team@ict.nl">hr.team@ict.nl</a>) for it to be arranged.</p>
+                <p>ICT highly values your well-being and integration within the Netherlands. Therefore, we also offer to
+                  arrange (and pay for) the visa of your family members (spouse and/or children) if they were to move to
+                  the Netherlands in the first year of your employment at ICT. Exterus will also monitor and coordinate
+                  this process.</p>
 
-                    <p>ICT will cover the costs regarding the visa application and arrangement of the 
-                      <span data-toggle="tooltip" title="Longterm Visa" data-placement="bottom" class="definition" class="red-tooltip">MVV</span>
-                       for your spouse and/or children. You will be responsible for the costs of the plane ticket(s) and visa fees for your family.</p>
+                <p>If your spouse and/or child(ren) are accompanying you when first coming to the Netherlands, you can
+                  inform Exterus about this. However, if they come to the Netherlands at another point in time (within
+                  the first year), you need to inform HR (<a href="mailto:hr.team@ict.nl">hr.team@ict.nl</a>) for it to
+                  be arranged.</p>
 
-                    <p>The fee will be:<Br>
-                      € 171,- for the visa of a spouse<br>
-                      € 57,- for the visa per child<br>
-                      Note: certain conditions set by IND apply.</p>
+                <p>ICT will cover the costs regarding the visa application and arrangement of the
+                  <span data-toggle="tooltip" title="Longterm Visa" data-placement="bottom" class="definition"
+                    class="red-tooltip">MVV</span>
+                  for your spouse and/or children. You will be responsible for the costs of the plane ticket(s) and visa
+                  fees for your family.</p>
+
+                <p>The fee will be:<Br>
+                  € 171,- for the visa of a spouse<br>
+                  € 57,- for the visa per child<br>
+                  Note: certain conditions set by IND apply.</p>
               </div>
-             
+
             </div>
           </div>
         </div>
@@ -191,10 +206,10 @@
   <script type="text/javascript" src="js/script.js"></script>
 
   <script>
-    $(document).ready(function(){
+    $(document).ready(function () {
       $('[data-toggle="tooltip"]').tooltip();
     });
-    </script>
+  </script>
 
 
 
