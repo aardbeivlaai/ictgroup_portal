@@ -139,13 +139,13 @@
 
                 <p>The visa process you will go through depends on your situation. The salary criteria for a visa also
                   vary per person and are dependent on factors such as the type of visa
-                  and your age. The Immigratie- en Naturalisatiedienst (IND) is the governmental institution that
+                  and your age. The <span data-toggle="tooltip" title="Immigration and Naturalisation Service" data-placement="bottom" class="definition" class="red-tooltip">IND</span> is the governmental institution that
                   handles all visa applications. There are several visa types that could
                   be applicable to you.
 
                 </p>
 
-                <p> <img src="img/visatype.png" usemap="#image-map" />
+                <p> <img src="img/visatype.png" usemap="#image-map" /><br>Follow this diagram to see which Visa type belongs to you. You can click on the box to read more information. 
                   <map name="image-map">
                     <area onclick="popout1()" data-modal-target="#modal" coords="848,182,1010,300" shape="rect">
                     <area onclick="popout2()" data-modal-target="#modal" coords="668,450,505,562" shape="rect">
@@ -174,30 +174,17 @@
                   </div>
                 </p>
 
-                <p>In order to do this, they will ask you to fill out some forms (Antecedents Certificate, etc.) and ask
-                  you for some documents (e.g. legalized birth certificate, etc.). You may also approach your contact
-                  person at Exterus for any questions regarding your visa (application).</p>
+               <p><b>NOTE:</b> Your <span data-toggle="tooltip" title="regular provisional residence permit" data-placement="bottom" class="definition" class="red-tooltip">MVV</span>: only serves as an entry visa and thus does not serve as your residence and
+                employment permit.
+                </p>
 
-                <p>ICT highly values your well-being and integration within the Netherlands. Therefore, we also offer to
-                  arrange (and pay for) the visa of your family members (spouse and/or children) if they were to move to
-                  the Netherlands in the first year of your employment at ICT. Exterus will also monitor and coordinate
-                  this process.</p>
+                <p><br><b>Important:</b> If you receive a Highly Skilled Migrant visa, you must comply to salary
+                  criteria set by the IND. See image below. <br><br><img src="img/salary.png"> <br><br> For mobility fees, it might be necessary to have the whole mobility
+                  fee paid out gross in order to reach the salary criteria of the IND. If you have
+                  the fee paid out as a gross amount, this means that you are not able to
+                  declare kilometers due to IND regulations.</p>
 
-                <p>If your spouse and/or child(ren) are accompanying you when first coming to the Netherlands, you can
-                  inform Exterus about this. However, if they come to the Netherlands at another point in time (within
-                  the first year), you need to inform HR (<a href="mailto:hr.team@ict.nl">hr.team@ict.nl</a>) for it to
-                  be arranged.</p>
-
-                <p>ICT will cover the costs regarding the visa application and arrangement of the
-                  <span data-toggle="tooltip" title="Longterm Visa" data-placement="bottom" class="definition"
-                    class="red-tooltip">MVV</span>
-                  for your spouse and/or children. You will be responsible for the costs of the plane ticket(s) and visa
-                  fees for your family.</p>
-
-                <p>The fee will be:<Br>
-                  € 171,- for the visa of a spouse<br>
-                  € 57,- for the visa per child<br>
-                  Note: certain conditions set by IND apply.</p>
+                
               </div>
 
             </div>

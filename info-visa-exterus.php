@@ -111,9 +111,9 @@
             <div class="faq-topics" class="sticky-top">
               <h4>Index</h4>
               <ul>
-                <li><a href="info-visa.php" class="active">Visa</a></li>
+                <li><a href="info-visa.php" >Visa</a></li>
                 <li><a href="#" class="active"><b>Exterus</b></a></li>
-                <li><a href="#">Visa types & Salary criteria</a></li>
+                <li><a href="info-visa-types.php">Visa types & Salary criteria</a></li>
                 <li><a href="#">Leave options</a></li>
                 <li><a href="#">Mobility options</a></li>
                 <li><a href="#">Validity of Visa/permit</a></li>
@@ -141,7 +141,7 @@
                   throughout the whole procedure. Their services consist of the following:
                    </p>
 
-                   <p>- Drafting and submitting the complete application for your Dutch residence permit together with your work authorization (e.g. as a Highly Skilled Migrant (HSM)); <br>
+                   <p>- Drafting and submitting the complete application for your Dutch residence permit together with your work authorization (e.g. as a <span data-toggle="tooltip" title="High Skilled Migrant" data-placement="bottom" class="definition" class="red-tooltip">HSM</span>); <br>
                     - Monitoring the process with the Dutch authorities and/or embassies of your home country;<br>
                     - Arranging any necessary appointments (e.g. visa application); <br>
                     - Verifying the details on your Dutch permit as HSM; and <br>
@@ -155,13 +155,13 @@
                     <p>If your spouse and/or child(ren) are accompanying you when first coming to the Netherlands, you can inform Exterus about this. However, if they come to the Netherlands at another point in time (within the first year), you need to inform HR (<a href="mailto:hr.team@ict.nl">hr.team@ict.nl</a>) for it to be arranged.</p>
 
                     <p>ICT will cover the costs regarding the visa application and arrangement of the 
-                      <span data-toggle="tooltip" title="Longterm Visa" data-placement="bottom" class="definition" class="red-tooltip">MVV</span>
+                      <span data-toggle="tooltip" title="Regular Provisional Residence Permit" data-placement="bottom" class="definition" class="red-tooltip">MVV</span>
                        for your spouse and/or children. You will be responsible for the costs of the plane ticket(s) and visa fees for your family.</p>
 
                     <p>The fee will be:<Br>
                       € 171,- for the visa of a spouse<br>
                       € 57,- for the visa per child<br>
-                      Note: certain conditions set by IND apply.</p>
+                      Note: certain conditions set by <span data-toggle="tooltip" title="Immigration and Naturalisation Service" data-placement="bottom" class="definition" class="red-tooltip">IND</span> apply.</p>
               </div>
              
             </div>
